@@ -1,0 +1,19 @@
+{
+  "name": "trie.js",
+  "version": "1.0.0",
+  "description": "Implementing string lookup in node.js!",
+  "main": "trie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lochlan/trie.js.git"
+  },
+  "author": "Lochlan McIntosh <info@lochlanmcintosh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lochlan/trie.js/issues"
+  },
+  "homepage": "https://github.com/Lochlan/trie.js#readme"
+}
