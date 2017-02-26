@@ -50,10 +50,4 @@ class Trie {
     }
 }
 
-const trie = new Trie();
-trie.insert('bar');
-console.log(trie.lookUp('bar'));
-console.log(trie.lookUp('ba'));
-
-trie.insert('ba');
-console.log(trie.lookUp('ba'));
+module.exports = Trie;

@@ -4,7 +4,7 @@
   "description": "Implementing string lookup in node.js!",
   "main": "trie.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Lochlan/trie.js/issues"
   },
-  "homepage": "https://github.com/Lochlan/trie.js#readme"
+  "homepage": "https://github.com/Lochlan/trie.js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
